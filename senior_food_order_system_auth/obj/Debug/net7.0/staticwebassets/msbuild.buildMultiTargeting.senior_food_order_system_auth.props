@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/senior_food_order_system_auth.props" />
+</Project>
