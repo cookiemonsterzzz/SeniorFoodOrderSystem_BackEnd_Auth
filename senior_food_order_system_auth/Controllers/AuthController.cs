@@ -85,8 +85,6 @@ namespace senior_food_order_system_auth.Controllers
         {
             try
             {
-
-
                 string token = CreateToken(user);
 
                 return Ok(token);
@@ -100,8 +98,8 @@ namespace senior_food_order_system_auth.Controllers
         private string CreateToken(User user)
         {
             var claims = new List<Claim> {
-                new Claim(ClaimTypes.Name, user.PhoneNo),
-                new Claim(ClaimTypes.Role, user.RoleType)
+                new Claim("PhoneNo", user.PhoneNo),
+                new Claim("Role", user.RoleType)
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
