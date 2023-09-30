@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  senior_food_order_system_auth:
+    image: ${DOCKER_REGISTRY-}seniorfoodordersystemauth
+    build:
+      context: .
+      dockerfile: senior_food_order_system_auth/Dockerfile

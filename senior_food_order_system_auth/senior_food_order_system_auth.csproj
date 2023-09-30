@@ -4,6 +4,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>9451b66f-1732-4c40-9059-9859db76bf0d</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
