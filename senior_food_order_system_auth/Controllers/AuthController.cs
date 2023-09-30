@@ -4,7 +4,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using senior_food_order_system_auth.Models;
+using senior_food_order_system_auth.Dto;
 
 namespace senior_food_order_system_auth.Controllers
 {

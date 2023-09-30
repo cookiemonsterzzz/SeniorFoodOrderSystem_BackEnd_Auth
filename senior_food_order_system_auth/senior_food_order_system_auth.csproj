@@ -25,13 +25,13 @@
   <ItemGroup>
     <None Remove="Controllers\" />
     <None Remove="Models\" />
-    <None Remove="Infrastructure\" />
     <None Remove="SQL\" />
+    <None Remove="Dto\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Infrastructure\" />
     <Folder Include="SQL\" />
+    <Folder Include="Dto\" />
   </ItemGroup>
 </Project>
