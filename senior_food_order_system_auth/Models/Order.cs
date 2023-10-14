@@ -23,7 +23,21 @@ public partial class Order
 
     public decimal Quantity { get; set; }
 
+    public decimal Amount { get; set; }
+
+    public string OrderStatus { get; set; } = null!;
+
+    public Guid StallId { get; set; }
+
+    public DateTimeOffset? DateTimeCreated { get; set; }
+
+    public DateTimeOffset? DateTimeUpdated { get; set; }
+
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
+
+    public virtual Stall Stall { get; set; } = null!;
+
+    public virtual ICollection<StallRating> StallRatings { get; set; } = new List<StallRating>();
 
     public virtual User User { get; set; } = null!;
 }
