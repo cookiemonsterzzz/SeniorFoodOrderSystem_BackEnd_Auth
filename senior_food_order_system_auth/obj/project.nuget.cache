@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycc/b/mMJK9Es9tXlnVcQGdomHfGtHjSUVmdQKH7YG7ankfV6W7Lrfs0Rsivol4w6EkbSV8w1j6Eu5YY7f2L9g==",
+  "dgSpecHash": "371qr+fhc0rnLVElhGGrgMjEXv1ohoFK7DquxTNqBYo7F73sV4qECG5PRSekth6QokKsJdqlEzxV5SuCPyBzMw==",
   "success": true,
-  "projectFilePath": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/senior_food_order_system_auth/senior_food_order_system_auth/senior_food_order_system_auth.csproj",
+  "projectFilePath": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/senior_food_order_system_auth/senior_food_order_system_auth.csproj",
   "expectedPackageFiles": [
     "/Users/yeesheng/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/yeesheng/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

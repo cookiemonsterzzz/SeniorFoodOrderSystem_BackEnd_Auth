@@ -4135,11 +4135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/senior_food_order_system_auth/senior_food_order_system_auth/senior_food_order_system_auth.csproj",
+      "projectUniqueName": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/senior_food_order_system_auth/senior_food_order_system_auth.csproj",
       "projectName": "senior_food_order_system_auth",
-      "projectPath": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/senior_food_order_system_auth/senior_food_order_system_auth/senior_food_order_system_auth.csproj",
+      "projectPath": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/senior_food_order_system_auth/senior_food_order_system_auth.csproj",
       "packagesPath": "/Users/yeesheng/.nuget/packages/",
-      "outputPath": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/senior_food_order_system_auth/senior_food_order_system_auth/obj/",
+      "outputPath": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/senior_food_order_system_auth/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yeesheng/.nuget/NuGet/NuGet.Config"
