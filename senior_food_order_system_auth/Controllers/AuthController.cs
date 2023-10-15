@@ -34,9 +34,11 @@ namespace senior_food_order_system_auth.Controllers
 
                 if (existUser is null)
                 {
+                    user.Id = Guid.NewGuid();
                     user.UserName = "";
                     user.PhoneNo = phoneNo;
                     user.RoleType = "Customer";
+                    user.DateTimeCreated = DateTimeOffset.Now;
 
                     existUser = user;
 
