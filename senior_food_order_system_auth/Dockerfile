@@ -18,7 +18,7 @@ FROM build AS test
 WORKDIR "/src/UnitTest"
 RUN dotnet test --no-build
 
-FROM build AS publish
+FROM test AS publish
 RUN dotnet publish "senior_food_order_system_auth.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
