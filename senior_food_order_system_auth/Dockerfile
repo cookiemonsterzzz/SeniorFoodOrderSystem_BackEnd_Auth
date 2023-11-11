@@ -15,7 +15,7 @@ RUN dotnet build "senior_food_order_system_auth.csproj" -c Release -o /app/build
 
 # run tests on docker build
 WORKDIR "/src/UnitTest"
-RUN dotnet test
+RUN dotnet test --no-build
 
 FROM build AS publish
 RUN dotnet publish "senior_food_order_system_auth.csproj" -c Release -o /app/publish /p:UseAppHost=false
