@@ -14,7 +14,6 @@ WORKDIR "/src/senior_food_order_system_auth"
 RUN dotnet build "senior_food_order_system_auth.csproj" -c Release -o /app/build
 
 # run tests on docker build
-FROM build AS test
 RUN dotnet test "./src/UnitTest/UnitTest.csproj"
 
 FROM build AS publish
