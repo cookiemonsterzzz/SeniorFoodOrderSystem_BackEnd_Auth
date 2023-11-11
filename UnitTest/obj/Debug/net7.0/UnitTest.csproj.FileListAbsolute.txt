@@ -1,0 +1,6 @@
+/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/UnitTest/bin/Debug/net7.0/CoverletSourceRootsMapping
+/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/UnitTest/obj/Debug/net7.0/UnitTest.csproj.AssemblyReference.cache
+/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/UnitTest/obj/Debug/net7.0/UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/UnitTest/obj/Debug/net7.0/UnitTest.AssemblyInfoInputs.cache
+/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/UnitTest/obj/Debug/net7.0/UnitTest.AssemblyInfo.cs
+/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/UnitTest/obj/Debug/net7.0/UnitTest.csproj.CoreCompileInputs.cache

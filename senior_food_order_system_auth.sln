@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "senior_food_order_system_au
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D08DCA17-3A96-4615-A7A1-7CEA0FD340CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "..\test\test.csproj", "{F67D0220-A3A6-4D43-9770-6901C93A2659}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{4CFBF85A-1A02-4BA4-ADDF-EE602A146200}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{D08DCA17-3A96-4615-A7A1-7CEA0FD340CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08DCA17-3A96-4615-A7A1-7CEA0FD340CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08DCA17-3A96-4615-A7A1-7CEA0FD340CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F67D0220-A3A6-4D43-9770-6901C93A2659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F67D0220-A3A6-4D43-9770-6901C93A2659}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F67D0220-A3A6-4D43-9770-6901C93A2659}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F67D0220-A3A6-4D43-9770-6901C93A2659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFBF85A-1A02-4BA4-ADDF-EE602A146200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFBF85A-1A02-4BA4-ADDF-EE602A146200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFBF85A-1A02-4BA4-ADDF-EE602A146200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFBF85A-1A02-4BA4-ADDF-EE602A146200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
