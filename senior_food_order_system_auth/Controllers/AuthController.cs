@@ -28,8 +28,6 @@ namespace senior_food_order_system_auth.Controllers
         {
             try
             {
-                using var transaction = _dbContext.Database.BeginTransaction();
-
                 var existUser = _dbContext.Users.FirstOrDefault(x => x.PhoneNo == phoneNo);
 
                 if (existUser is null)
@@ -44,7 +42,6 @@ namespace senior_food_order_system_auth.Controllers
 
                     await _dbContext.AddAsync(user);
                     await _dbContext.SaveChangesAsync();
-                    await transaction.CommitAsync();
                 }
 
                 string token = CreateToken(existUser);
@@ -104,8 +101,10 @@ namespace senior_food_order_system_auth.Controllers
                 new Claim("Role", user.RoleType)
             };
 
+            var tokenValue = _configuration["AppSettings:Token"] ?? "senior food order system nus iss assignment team 38 secret key 20230827";
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
-                        _configuration.GetSection("AppSettings:Token").Value!
+                        tokenValue
                         ));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);

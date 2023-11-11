@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5B47Qu4x+c5qb5uVFoLDhL6ER3JSsd2Bu1qrjJPUSUoxdbN/taP00jveCAd7cMbqGV/CG9w8O/pl/QQjoK00Ig==",
+  "dgSpecHash": "+SZZtaxGG7tIrcoyJEO6stwuN1gcSapk9vS0GQULzqBD2VkaxCBpWCI3KPXjRgP5nAFD/CygUXwVxGvxYYMPMQ==",
   "success": true,
   "projectFilePath": "/Users/yeesheng/Documents/Coding/SeniorFoodOrderSystem/BackEnd/SeniorFoodOrderSystem_BackEnd_Auth/UnitTest/UnitTest.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "/Users/yeesheng/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "/Users/yeesheng/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "/Users/yeesheng/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
+    "/Users/yeesheng/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.10/microsoft.entityframeworkcore.inmemory.7.0.10.nupkg.sha512",
     "/Users/yeesheng/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.10/microsoft.entityframeworkcore.relational.7.0.10.nupkg.sha512",
     "/Users/yeesheng/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.10/microsoft.entityframeworkcore.sqlserver.7.0.10.nupkg.sha512",
     "/Users/yeesheng/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
