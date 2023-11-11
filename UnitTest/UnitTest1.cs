@@ -27,6 +27,10 @@ public class UnitTest1
         // Arrange
         string phoneNo = "1234567890";
 
+        // Mock the behavior of the database context
+        _dbConfiguration.Setup(x => x.Users.FirstOrDefault(It.IsAny<Func<User, bool>>()))
+            .Returns((User)null); // Simulate that the user does not exist in the database
+
         // Act
         var result = await _authController.LoginWithPhoneNo(phoneNo) as OkObjectResult;
 
